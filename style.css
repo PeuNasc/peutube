@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
+
   
   body {
     background-color: #0f0f0f;
@@ -23,6 +24,16 @@
   header .logo {
     font-size: 20px;
     font-weight:bold;
+    margin: 0;
+    padding-top: 0px;
+  }
+
+  #imagemaba{
+    width: 25px;
+    
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
   }
   
   header input {
@@ -58,12 +69,19 @@
     font-size: 20px;
   }
   
-  .video-principal p {
+  .views {
     font-size: 14px;
     color: #aaa;
     margin-top: 5px;
   }
   
+.descricao{
+  color: #f3f2f2;
+  background-color: #3f3a3a;
+  border-radius: 20px;
+  padding: 15px;
+}
+
   .sidebar {
     flex: 1;
     display: flex;
@@ -93,4 +111,5 @@
     font-size: 12px;
     color: #bbb;
   }
+  
   
