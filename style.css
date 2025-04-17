@@ -111,5 +111,54 @@
     font-size: 12px;
     color: #bbb;
   }
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  header input {
+    width: 90%;
+    margin-top: 10px;
+  }
+
+  .pagina-reprodução {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .video-principal {
+    flex: unset;
+    width: 100%;
+  }
+
+  .sidebar {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .sugestao {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .sugestao img {
+    width: 100px;
+    height: auto;
+  }
+
+  .nomedovideo h3 {
+    font-size: 14px;
+  }
+
+  .nomedovideo p {
+    font-size: 12px;
+  }
+}
   
   
